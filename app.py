@@ -8,7 +8,9 @@ app = Flask(__name__)
 
 def getCondition(conditionText):
     conditionText = conditionText.lower()
-    if "rain" in conditionText:
+    if "rain with thunder" in conditionText or "thundery" in conditionText:
+        return "⛈️"
+    elif "rain" in conditionText or "drizzle" in conditionText:
         return "🌧️"
     elif "sun" in conditionText or "sunny" in conditionText or "clear" in conditionText:
         return "☀️"
@@ -18,10 +20,17 @@ def getCondition(conditionText):
         or "overcast" in conditionText
     ):
         return "☁️"
-    elif "snow" in conditionText or "snowy" in conditionText:
+    elif (
+        "snow" in conditionText
+        or "snowy" in conditionText
+        or "sleet" in conditionText
+        or "blizzard" in conditionText
+    ):
         return "🌨️"
-    elif "fog" in conditionText or "foggy" in conditionText:
+    elif "fog" in conditionText or "foggy" in conditionText or "mist" in conditionText:
         return "🌫️"
+    elif "pellets" in conditionText:
+        return "❄️"
     else:
         return conditionText
 
