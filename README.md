@@ -1,4 +1,4 @@
-# [flaskWeather⛅](https://dogukanurker.com/flaskWeather)
+# [flaskWeather⛅](https://dogukanurker.com/flaskweather)
 
 Simple weather app built with Flask.
 <br/>
