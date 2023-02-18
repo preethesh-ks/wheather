@@ -12,7 +12,7 @@ Simple weather app built with Flask.
 
 ## Installation
 
-download source code from github 💾
+download source code from Github 💾
 `git clone https://github.com/DogukanUrker/flaskWeather.git`
 
 go to directory 📁
