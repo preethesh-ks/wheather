@@ -10,6 +10,12 @@ Simple weather app built with Flask.
 | :--------------------------------: | :-------------------------------: |
 | ![appDesktop](/images/desktop.png) | ![appMobile](/images/mobile.jpeg) |
 
+
+## Requirements
+
+- Flask
+
+
 ## Installation
 
 download source code from Github 💾
@@ -28,6 +34,3 @@ it's ready to run 🎉
 
 [Weather Api](https://www.weatherapi.com/)
 
-## Requirements
-
-- Flask
