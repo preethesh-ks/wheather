@@ -30,7 +30,6 @@ install requirements.txt 🔽
 it's ready to run 🎉
 `python app.py`
 
-### API
+### [API](https://www.weatherapi.com/)
 
-[Weather Api](https://www.weatherapi.com/)
 
