@@ -4,6 +4,7 @@ import requests
 from flask import Flask, render_template, redirect
 
 app = Flask(__name__)
+apiKey = "91b94bf112934a7f84c190832232802"
 
 
 def getCondition(conditionText):
@@ -43,7 +44,7 @@ def index():
 @app.route("/weather/<location>")
 def weather(location):
     api = requests.get(
-        f"http://api.weatherapi.com/v1/forecast.json?key=866fb044e99e4f9b95285132231502&q={location}&days=8&aqi=no&alerts=no"
+        f"http://api.weatherapi.com/v1/forecast.json?key={apiKey}&q={location}&days=8&aqi=no&alerts=no"
     )
     if api.status_code == 400:
         return redirect("/")
