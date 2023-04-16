@@ -1,1 +1,1 @@
-// put your API key🔑 on this line \\
+// put your API key🔑 on this line \\ // get free key from https://www.weatherapi.com/signup.aspx (valid for 14 days) \\
