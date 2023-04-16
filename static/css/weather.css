@@ -84,7 +84,7 @@
     font-size: 2rem;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     html {
         width: 100%;
     }
@@ -117,7 +117,7 @@
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 769px) {
     .container {
         position: absolute;
         top: 50%;

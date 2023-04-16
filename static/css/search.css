@@ -32,3 +32,10 @@
     border-color: transparent;
     outline: 2px solid #333745e5;
 }
+
+@media screen and (max-width: 768px) {
+    .search {
+        margin-top: 1rem;
+    }
+
+}
