@@ -1,0 +1,14 @@
+#footer {
+    text-decoration: none;
+    width: fit-content;
+    position: absolute;
+    bottom: 0.1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 768px) {
+    #footer {
+        display: none;
+    }
+}
