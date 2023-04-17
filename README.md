@@ -6,9 +6,9 @@ Simple weather app built with Flask.
 [Contact](mailto:dogukanurker@icloud.com)<br/>
 [Dogukan Urker](https://dogukanurker.com)
 
-|              Desktop               |              Mobile               |
-| :--------------------------------: | :-------------------------------: |
-| ![appDesktop](/images/desktop.png) | ![appMobile](/images/mobile.jpeg) |
+|              Desktop               |              Mobile              |
+| :--------------------------------: | :------------------------------: |
+| ![appDesktop](/images/desktop.png) | ![appMobile](/images/mobile.png) |
 
 ## Requirements
 
