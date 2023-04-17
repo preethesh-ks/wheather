@@ -4,7 +4,7 @@ import requests
 from flask import Flask, render_template, redirect
 
 app = Flask(__name__)
-apiKey = open("APIkey.txt", "r").read().strip("\n")
+apiKey = open("APIKey.txt", "r").read().strip("\n")
 
 
 def getCondition(conditionText):
