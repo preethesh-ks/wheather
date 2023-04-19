@@ -31,3 +31,13 @@ it's ready to run 🎉
 ### [API](https://www.weatherapi.com/)
 
 <sup>hosted on **[pythonanywhere](https://www.pythonanywhere.com/)**</sup>
+
+#### Contributors
+
+<a href="https://github.com/dogukanurker/flaskweather/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=dogukanurker/flaskweather" />
+</a>
+
+#### Support
+
+<a href="https://www.buymeacoffee.com/dogukanurker" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-red.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
