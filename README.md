@@ -2,9 +2,9 @@
 
 Simple weather app built with Flask.
 <br/>
-[Deployment](https://flaskweather.pythonanywhere.com/)<br/>
 [Contact](mailto:dogukanurker@icloud.com)<br/>
 [Dogukan Urker](https://dogukanurker.com)
+### **[Deployment🌐](https://flaskweather.pythonanywhere.com/)**<br/>
 
 |              Desktop               |              Mobile              |
 | :--------------------------------: | :------------------------------: |
