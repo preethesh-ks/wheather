@@ -32,11 +32,9 @@ it's ready to run 🎉
 
 <sup>hosted on **[pythonanywhere](https://www.pythonanywhere.com/)**</sup>
 
-#### Contributors 💕
+### Contributors 💕
 
-<a href="https://github.com/dogukanurker/flaskweather/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=dogukanurker/flaskweather" />
-</a>
+<a href="https://github.com/dogukanurker"><img src="https://avatars.githubusercontent.com/u/62756402" title="ngryman" width="80" height="80"></a>
 
 ### Support 💰
 
