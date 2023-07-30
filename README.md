@@ -28,10 +28,6 @@ install requirements.txt 🔽
 it's ready to run 🎉
 `python app.py`
 
-### [API🌡️](https://www.weatherapi.com/)
-
-<sup>hosted on **[pythonanywhere](https://www.pythonanywhere.com/)**</sup>
-
 ### Contributors 💕
 
 <a href="https://github.com/dogukanurker"><img src="https://avatars.githubusercontent.com/u/62756402" title="ngryman" width="80" height="80"></a>
@@ -39,3 +35,7 @@ it's ready to run 🎉
 ### Support 💰
 
 <a href="https://dogukanurker.com/donate" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/arial-red.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+### [API🌡️](https://www.weatherapi.com/)
+
+<sup>hosted by **[pythonanywhere](https://www.pythonanywhere.com/)**</sup>
