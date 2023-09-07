@@ -4,8 +4,8 @@ Simple weather app built with Flask.
 <br/>
 [Contact](mailto:dogukanurker@icloud.com)<br/>
 [Dogukan Urker](https://dogukanurker.com)
-### **[Deployment🌐](https://flaskweather.pythonanywhere.com/)**<br/>
-
+### **[Deployment 🌐](https://flaskweather.pythonanywhere.com/)**<br/>
+### [Demo Video 📺](https://youtu.be/-oSbqdmmi6g)
 |              Desktop               |              Mobile              |
 | :--------------------------------: | :------------------------------: |
 | ![appDesktop](/images/desktop.png) | ![appMobile](/images/mobile.png) |
