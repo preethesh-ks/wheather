@@ -1,38 +1,56 @@
-<link rel="stylesheet" href="/static/css/weather.css" />
-<meta content="width=device-width, initial-scale=1" name="viewport" />
-<title>{{locationName}} is {{currentTemp}}° at {{localTime}}</title>
-<link
-  rel="icon"
-  href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{currentCondition}}</text></svg>"
-/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>{{locationName}} is {{currentTemp}}° at {{localTime}}</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/weather.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>{{currentCondition}}</text></svg>">
+</head>
+<body>
+
 {% include 'search.html' %}
-<div class="weatherCard">
-  <div class="container">
-    <div class="currentContainer">
-      <div class="currentStats">
-        <div class="currentCondition">{{currentCondition}}</div>
-        <h1>{{currentTemp}}°</h1>
-      </div>
-      <div class="stats">
-        Location: <b>{{locationName}}</b> <br />
-        Region: <b>{{locationRegion}}</b> <br />
-        Country: <b>{{locationCountry}}</b><br />
-        Local Time: <b>{{localTime}}</b><br />
-      </div>
-    </div>
-    <div class="daysContainer">
-      {% for data in data %}
-      <div class="day">
-        <div class="date">{{data[4]}}</div>
-        <div class="dayCondition">{{data[0]}}</div>
-        <div class="dayAvgTemp">{{data[1]}}°</div>
-        <div class="dayTemps">
-          <div class="dayMinTemp">{{data[3]}}°</div>
-          <div class="dayMaxTemp">{{data[2]}}°</div>
+
+
+<div class="container my-4">
+  <div class="weatherCard card">
+    <div class="card-body">
+      <div class="currentContainer d-flex justify-content-around">
+        <div class="currentStats">
+          <div class="currentCondition">{{currentCondition}}</div>
+          <h1>{{currentTemp}}°</h1>
+        </div>
+        <div class="stats">
+          Location: <b>{{locationName}}</b> <br>
+          Region: <b>{{locationRegion}}</b> <br>
+          Country: <b>{{locationCountry}}</b><br>
+          Local Time: <b>{{localTime}}</b><br>
         </div>
       </div>
-      {% endfor %}
+      <div class="daysContainer d-flex justify-content-between mt-4">
+        {% for data in data %}
+        <div class="day card" style="width: 18rem;">
+          <div class="card-body">
+            <div class="date">{{data[4]}}</div>
+            <div class="dayCondition">{{data[0]}}</div>
+            <div class="dayAvgTemp">{{data[1]}}°</div>
+            <div class="dayTemps d-flex justify-content-between">
+              <div class="dayMinTemp">{{data[3]}}°</div>
+              <div class="dayMaxTemp">{{data[2]}}°</div>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>
-{%include "footer.html"%}
+
+{% include "footer.html" %}
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

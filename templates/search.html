@@ -1,21 +1,46 @@
 <link rel="stylesheet" href="/static/css/search.css" />
-<div class="search">
-  <input
-    type="text"
-    class="locationInput"
-    {%
-    if
-    not
-    locationName%}
-    placeholder="search city"
-    {%
-    else
-    %}
-    placeholder="{{locationName}}"
-    {%
-    endif
-    %}
-  />
-  <button onclick="getWeather()" class="searchBtn">search</button>
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(29, 171, 223);">
+  <a class="navbar-brand" href="#">Flask Weather App</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+    
+    </ul>
+  </div>
+</nav>
+</header>
+<div class="search d-flex justify-content-center" >
+  <form class="form-inline" onsubmit="event.preventDefault(); getWeather();" >
+   
+      <div class="form-group  mb-2">
+        <input
+          type="text"
+          class="form-control locationInput"
+          {%
+          if
+          not
+          locationName%}
+          placeholder="search city"
+          {%
+          else
+          %}
+          placeholder="{{locationName}}"
+          {%
+          endif
+          %}
+        />
+      </div>
+    
+    <div class="form-group mx-sm-3 mb-2">
+      <button type="submit" class="btn btn-primary">search</button>
+    </div>
+  </form>
 </div>
 <script src="/static/js/search.js"></script>
